@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+        <title>Sistema de Ramais|Enerwatt</title>
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <h2><a class="navbar-brand" href="index.html">Sistema de Ramais</a></h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Opções
+                                </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="mantUser.html">Manutenção de usuários</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="contatos.html" tabindex="-1">Contatos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex form-group form-group-inline">
+                            <input class="form-control me-2" type="text" placeholder="E-mail" >
+                            <input type="text" class="form-control me-2" placeholder="Password">
+                            <button class="btn btn-success" type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <article>
+            <section>
+                <div class="container-fluid mt-5 w-50">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input class="form-control mb-4" type="text" placeholder="Digite seu nome completo">
+                            <label for="password">Senha:</label>
+                            <input class="form-control mb-4" type="password" placeholder="Digite uma senha">
+                            <label for="passwordCom">Confirmar senha:</label>
+                            <input class="form-control" type="password" placeholder="Digite uma senha">
+
+                            <label for=""class="mt-4">Unidade de filiação:</label>
+                            <select name="origemFunc" id="" class="form-control" >
+                                <option>--- Selecione uma unidade de filiação ---</option>
+                                <option value="">Aparecida de Goiânia - GO</option>
+                                <option value="">Goiânia - GO</option>
+                                <option value="">Manaus - AM</option>
+                            </select>
+
+                            <label for="" class="mt-4">Número de ramal:</label>
+                            <input type="number" class="form-control">
+                            <label for="" class="mt-4">Número de celular:</label>
+                            <input type="tel" class="form-control" placeholder="Digite o número de celular">
+                            <label for="" class="mt-4">E-mail:</label>
+                            <div class="input-group mb-4">
+                                <input type="email" class="form-control" placeholder="nome.sobrenome">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">@enerwatt.com.br</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <input type="submit" class="btn btn-outline-primary mb-5">
+                    </form>
+                </div>   
+            </section>
+        </article>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
